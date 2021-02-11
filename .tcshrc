@@ -1,0 +1,11 @@
+set history=1000
+set histdup=erase
+set savehist=(1000 merge)
+alias postcmd "history -S; history -M"
+
+alias gs git status
+alias gc git checkout
+alias ls ls -la
+
+alias pycharm "nohup ~/Desktop/pycharm-2020.3.3/bin/pycharm.sh >> /dev/null &"
+alias webstorm "nohup ~/Desktop/WebStorm-203.7148.54/bin/webstorm.sh >> /dev/null &"
