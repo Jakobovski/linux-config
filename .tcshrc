@@ -65,5 +65,6 @@ alias pycharm "nohup ~/mnt/ssd/pycharm-2020.2.4/bin/pycharm.sh >& /dev/null &"
 alias webstorm "nohup ~/Desktop/WebStorm-203.7148.54/bin/webstorm.sh >& /dev/null &"
 
 
-
-
+# Make sure to copy the file to home dir
+# See: https://github.com/git/git/blob/master/contrib/completion/git-completion.tcsh
+source ~/.git-completion.tcsh
