@@ -2,6 +2,6 @@
 My configuration files for linux systems
 
 
-## TODO:
+### TODO:
 - Jetbrains settings sync
 - git completion
