@@ -67,4 +67,5 @@ alias webstorm "nohup ~/Desktop/WebStorm-203.7148.54/bin/webstorm.sh >& /dev/nul
 
 # Make sure to copy the file to home dir
 # See: https://github.com/git/git/blob/master/contrib/completion/git-completion.tcsh
+#set autolist=ambiguous
 source ~/.git-completion.tcsh
