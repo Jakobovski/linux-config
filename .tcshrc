@@ -55,7 +55,7 @@ alias gc git checkout
 alias gp "git pull"
 alias gg "git gui"
 alias gitlatest "git for-each-ref --sort=-committerdate refs/heads/ | head "
-
+alias lz lazygit
 
 
 # Application aliases
