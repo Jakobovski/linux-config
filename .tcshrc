@@ -63,8 +63,7 @@ alias quicktile "quicktile --daemonize"
 alias sublime "nohup /opt/sublime_text/sublime_text >& /dev/null &"  
 alias pycharm "nohup ~/mnt/ssd/pycharm-2020.2.4/bin/pycharm.sh >& /dev/null &"
 alias webstorm "nohup ~/Desktop/WebStorm-203.7148.54/bin/webstorm.sh >& /dev/null &"
-alias chrome-cors 'google-chrome --disable-web-security --user-data-dir="/me/zoharj/.config/google-chrome/"'
-
+alias chrome-cors 'google-chrome --disable-web-security --user-data-dir="~/.config/google-chrome-cors/"'
 
 # Make sure to copy the file to home dir
 # See: https://github.com/git/git/blob/master/contrib/completion/git-completion.tcsh
