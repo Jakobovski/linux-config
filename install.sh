@@ -20,3 +20,15 @@ wget https://github.com/git/git/blob/master/contrib/completion/git-completion.ba
 
 # Change default shell
 sudo usermod --shell /bin/tcsh `whoami`
+
+# Create SSH key if no SSH dir
+DIR="~/.ssh/"
+if [ -d "$DIR" ]; then
+  ssh-keygen -t ed25519 -C "zoharj@gmail.com"
+  ssh-add ~/.ssh/
+fi
+
+# Setup git
+git config --global user.email "zoharj@gmail.com"
+git config --global user.name "Zohar Jackson"
+
