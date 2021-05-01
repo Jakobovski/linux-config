@@ -1,9 +1,7 @@
-sudo apt-get -y install git-gui
-
 # install lazy git
 sudo add-apt-repository ppa:lazygit-team/release
 sudo apt-get update
-sudo apt-get -y install lazygit
+sudo apt-get -y install lazygit tcsh htop git git-gui
 
 
 # Setup git autocomplete
