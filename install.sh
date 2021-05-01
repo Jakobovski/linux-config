@@ -1,7 +1,7 @@
 # install lazy git
 sudo add-apt-repository ppa:lazygit-team/release
 sudo apt-get update
-sudo apt-get -y install lazygit tcsh htop git git-gui
+sudo apt-get -y install lazygit tcsh zsh fish htop git git-gui
 
 #  Setup tcshrc
 wget -O ~/.tcshrc https://raw.githubusercontent.com/Jakobovski/linux-config/main/.tcshrc
