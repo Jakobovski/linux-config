@@ -31,16 +31,3 @@ fi
 # Setup git
 git config --global user.email "zoharj@gmail.com"
 git config --global user.name "Zohar Jackson"
-
-# =============================================================
-# For laptop config
-# =============================================================
-sudo sh -c "echo 'HandleLidSwitch=hibernate' >> /etc/systemd/logind.conf"
-sudo sh -c "echo 'HandleLidSwitchDocked=ignore' >> /etc/systemd/logind.conf"
-sudo sh -c "echo 'HandleLidSwitchExternalPower=ignore' >> /etc/systemd/logind.conf"
-
-
-
-
-
-
