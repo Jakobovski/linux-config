@@ -7,6 +7,11 @@ set    cyan="%{\033[1;36m%}"
 set   white="%{\033[0;37m%}"
 set     end="%{\033[0m%}" # This is needed at the end... :(
 
+# So that ctrl-left / ctrl-right skip words
+bindkey '^[[1;5D' backward-word
+bindkey '^[[1;5C' forward-word
+
+
 set history = 3000
 set savehist = ( 3000 merge )
 set autoexpand
