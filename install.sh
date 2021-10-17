@@ -5,7 +5,7 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 sudo add-apt-repository ppa:lazygit-team/release
 
 sudo apt-get update
-sudo apt-get -y install lazygit tcsh zsh fish htop git git-gui terminator curl
+sudo apt-get -y install lazygit tcsh zsh fish htop git git-gui terminator curl ruby ruby-dev ruby-colorize
 
 # This wont work on ARM so lets keep it separate so the above dont fail
 sudo apt-get -y install sublime-text 
@@ -17,6 +17,13 @@ wget -O ~/.tcshrc https://raw.githubusercontent.com/Jakobovski/linux-config/main
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
+
+
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+sudo gem install colorls
 
 
 
