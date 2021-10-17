@@ -10,8 +10,6 @@ sudo apt-get -y install lazygit tcsh zsh fish htop git git-gui terminator curl r
 # This wont work on ARM so lets keep it separate so the above dont fail
 sudo apt-get -y install sublime-text 
 
-#  Setup tcshrc
-wget -O ~/.tcshrc https://raw.githubusercontent.com/Jakobovski/linux-config/main/.tcshrc
 
 # install AWS CLI
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
@@ -24,6 +22,11 @@ git clone https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zs
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 sudo gem install colorls
+
+#  Setup shells
+wget -O ~/.tcshrc https://raw.githubusercontent.com/Jakobovski/linux-config/main/.tcshrc
+wget -O ~/.zshrc https://raw.githubusercontent.com/Jakobovski/linux-config/main/.zshrc
+wget -O ~/.zshrc https://raw.githubusercontent.com/Jakobovski/linux-config/main/.p10k.zsh
 
 
 
