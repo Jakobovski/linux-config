@@ -26,7 +26,6 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 sudo gem install colorls
 
 #  Setup shells
-wget -O ~/.tcshrc https://raw.githubusercontent.com/Jakobovski/linux-config/main/.tcshrc
 wget -O ~/.zshrc https://raw.githubusercontent.com/Jakobovski/linux-config/main/.zshrc
 wget -O ~/.p10k.zsh https://raw.githubusercontent.com/Jakobovski/linux-config/main/.p10k.zsh
 ~/.fzf/install --all
@@ -34,7 +33,6 @@ wget -O ~/.p10k.zsh https://raw.githubusercontent.com/Jakobovski/linux-config/ma
 
 
 # Setup git autocomplete
-wget https://github.com/git/git/blob/master/contrib/completion/git-completion.tcsh -P ~/; mv ~/git-completion.tcsh ~/.git-completion.tcsh
 wget https://github.com/git/git/blob/master/contrib/completion/git-completion.bash -P ~/; mv ~/git-completion.bash ~/.git-completion.bash
 
 # Change default shell
