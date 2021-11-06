@@ -28,7 +28,7 @@ sudo gem install colorls
 #  Setup shells
 wget -O ~/.tcshrc https://raw.githubusercontent.com/Jakobovski/linux-config/main/.tcshrc
 wget -O ~/.zshrc https://raw.githubusercontent.com/Jakobovski/linux-config/main/.zshrc
-wget -O ~/.zshrc https://raw.githubusercontent.com/Jakobovski/linux-config/main/.p10k.zsh
+wget -O ~/.p10k.zsh https://raw.githubusercontent.com/Jakobovski/linux-config/main/.p10k.zsh
 ~/.fzf/install --all
 
 
