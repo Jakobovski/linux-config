@@ -36,7 +36,7 @@ wget -O ~/.p10k.zsh https://raw.githubusercontent.com/Jakobovski/linux-config/ma
 wget https://github.com/git/git/blob/master/contrib/completion/git-completion.bash -P ~/; mv ~/git-completion.bash ~/.git-completion.bash
 
 # Change default shell
-sudo usermod --shell /bin/tcsh `whoami`
+sudo usermod --shell /bin/zsh `whoami`
 
 # Create SSH key if no SSH dir
 DIR="~/.ssh/"
