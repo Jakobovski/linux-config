@@ -7,6 +7,9 @@ sudo add-apt-repository ppa:lazygit-team/release
 sudo apt-get update
 sudo apt-get -y install lazygit zsh htop git git-gui terminator curl ruby ruby-dev ruby-colorize
 
+# Change default shell
+sudo usermod --shell /bin/zsh `whoami`
+
 # This wont work on ARM so lets keep it separate so the above dont fail
 sudo apt-get -y install sublime-text 
 
@@ -30,13 +33,8 @@ wget -O ~/.zshrc https://raw.githubusercontent.com/Jakobovski/linux-config/main/
 wget -O ~/.p10k.zsh https://raw.githubusercontent.com/Jakobovski/linux-config/main/.p10k.zsh
 ~/.fzf/install --all
 
-
-
 # Setup git autocomplete
 wget https://github.com/git/git/blob/master/contrib/completion/git-completion.bash -P ~/; mv ~/git-completion.bash ~/.git-completion.bash
-
-# Change default shell
-sudo usermod --shell /bin/zsh `whoami`
 
 # Create SSH key if no SSH dir
 DIR="~/.ssh/"
