@@ -1,4 +1,4 @@
-wget -O setuplinux.sh https://raw.githubusercontent.com/Jakobovski/linux-config/main/setuplinux.sh; source setuplinux.sh
+wget -O setuplinux.sh https://raw.githubusercontent.com/Jakobovski/linux-config/main/install.sh; source setuplinux.sh
 
 # Create SSH key if no SSH dir
 DIR="~/.ssh/"
