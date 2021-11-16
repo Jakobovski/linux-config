@@ -1,7 +1,7 @@
 # linux-config
 My configuration files for linux systems
 
-Installation for everyonee
+Installation for everyone
 ```shellscript
 wget -O setuplinux.sh https://raw.githubusercontent.com/Jakobovski/linux-config/main/install.sh; source setuplinux.sh
 ```
