@@ -35,14 +35,3 @@ wget -O ~/.p10k.zsh https://raw.githubusercontent.com/Jakobovski/linux-config/ma
 
 # Setup git autocomplete
 wget https://github.com/git/git/blob/master/contrib/completion/git-completion.bash -P ~/; mv ~/git-completion.bash ~/.git-completion.bash
-
-# Create SSH key if no SSH dir
-DIR="~/.ssh/"
-if [ -d "$DIR" ]; then
-  ssh-keygen -t ed25519 -C "zoharj@gmail.com"
-  ssh-add ~/.ssh/
-fi
-
-# Setup git
-git config --global user.email "zoharj@gmail.com"
-git config --global user.name "Zohar Jackson"
