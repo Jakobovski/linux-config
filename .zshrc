@@ -120,7 +120,7 @@ alias quicktile="quicktile --daemonize"
 alias sublime="nohup /opt/sublime_text/sublime_text >& /dev/null &"  
 alias pycharm="nohup ~/pycharm/bin/pycharm.sh >& /dev/null &"
 alias webstorm="nohup ~/webstorm/bin/webstorm.sh >& /dev/null &"
-alias webstorm="nohup ~/clion/bin/clion.sh >& /dev/null &"
+alias clion="nohup ~/clion/bin/clion.sh >& /dev/null &"
 alias chrome-cors='google-chrome --disable-web-security --user-data-dir="~/.config/google-chrome-cors/"'
 
 
