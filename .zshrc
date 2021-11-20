@@ -117,17 +117,14 @@ alias gp="git pull"
 alias gg="git gui"
 
 alias quicktile="quicktile --daemonize"
-alias sublime="nohup /opt/sublime_text/sublime_text >& /dev/null &"  
-alias pycharm="nohup ~/pycharm/bin/pycharm.sh >& /dev/null &"
-alias webstorm="nohup ~/webstorm/bin/webstorm.sh >& /dev/null &"
-alias clion="nohup ~/clion/bin/clion.sh >& /dev/null &"
+alias sublime="(/opt/sublime_text/sublime_text >& /dev/null &)"  
+alias pycharm="(~/pycharm/bin/pycharm.sh >& /dev/null &)"
+alias webstorm="(~/webstorm/bin/webstorm.sh >& /dev/null &)"
+alias clion="(~/clion/bin/clion.sh >& /dev/null &)"
 alias chrome-cors='google-chrome --disable-web-security --user-data-dir="~/.config/google-chrome-cors/"'
-
 
 alias xclip="xclip -selection c"
 
-alias quicktile="quicktile --daemonize"
-alias ssd_mount='sudo /usr/local/ssd_mount.sh'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
