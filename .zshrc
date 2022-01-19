@@ -122,7 +122,7 @@ alias pycharm="(~/pycharm/bin/pycharm.sh >& /dev/null &)"
 alias webstorm="(~/webstorm/bin/webstorm.sh >& /dev/null &)"
 alias clion="(~/clion/bin/clion.sh >& /dev/null &)"
 alias chrome-cors='google-chrome --disable-web-security --user-data-dir="~/.config/google-chrome-cors/"'
-
+alias rp="realpath"
 alias xclip="xclip -selection c"
 
 
