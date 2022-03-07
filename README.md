@@ -1,5 +1,8 @@
 # linux-config
-My configuration files for linux systems
+My configuration files for Ubuntu.
+
+This script installs a number of basic useful packages, sets up aliases, changes default shell to ZSH with oh-my-zsh. 
+
 
 Installation for everyone
 ```shellscript
