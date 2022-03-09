@@ -32,11 +32,10 @@ wget -O ~/.p10k.zsh https://raw.githubusercontent.com/Jakobovski/linux-config/ma
 
 # Setup git autocomplete
 wget https://github.com/git/git/blob/master/contrib/completion/git-completion.bash -P ~/; mv ~/git-completion.bash ~/.git-completion.bash
-quicktile
+
+git clone https://github.com/ssokolow/quicktile.git
+sudo ./quicktile/install.sh
 wget -O ~/.configu/quicktile.cfg https://raw.githubusercontent.com/Jakobovski/linux-config/main/quicktile.cfg
-
-
-sudo pip3 install https://github.com/ssokolow/quicktile/archive/master.zip
 
 # Change default shell
 sudo usermod --shell /bin/zsh `whoami`
