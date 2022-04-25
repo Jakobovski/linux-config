@@ -8,11 +8,7 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 sudo add-apt-repository ppa:lazygit-team/release
 
 sudo apt-get update
-sudo apt-get -y install lazygit zsh htop git git-gui terminator curl ruby ruby-dev ruby-colorize xclip
-
-
-# This wont work on ARM so lets keep it separate so the above dont fail
-sudo apt-get -y install sublime-text 
+sudo apt-get -y install lazygit zsh htop git git-gui terminator curl ruby ruby-dev ruby-colorize xclip  sublime-text 
 
 # install AWS CLI
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
