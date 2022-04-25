@@ -76,7 +76,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git gitfast z command-not-found zsh-interactive-cd aws fzf helm zsh-autosuggestions zsh-syntax-highlighting git-auto-fetch) 
+plugins=(git gitfast z command-not-found  zsh-interactive-cd aws fzf helm zsh-autosuggestions zsh-syntax-highlighting git-auto-fetch)
 
 
 source $ZSH/oh-my-zsh.sh
@@ -107,7 +107,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-plugins=(git gitfast z command-not-found  zsh-interactive-cd aws fzf helm zsh-autosuggestions zsh-syntax-highlighting)
 
 
 alias sublime="/opt/sublime_text/sublime_text"
