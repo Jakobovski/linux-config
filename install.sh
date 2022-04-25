@@ -35,7 +35,7 @@ wget https://github.com/git/git/blob/master/contrib/completion/git-completion.ba
 
 git clone https://github.com/ssokolow/quicktile.git
 sudo ./quicktile/install.sh
-wget -O ~/.configu/quicktile.cfg https://raw.githubusercontent.com/Jakobovski/linux-config/main/quicktile.cfg
+wget -O ~/.config/quicktile.cfg https://raw.githubusercontent.com/Jakobovski/linux-config/main/quicktile.cfg
 
 # Change default shell
 sudo usermod --shell /bin/zsh `whoami`
