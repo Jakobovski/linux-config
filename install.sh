@@ -16,6 +16,7 @@ unzip awscliv2.zip
 sudo ./aws/install
 
 git config --global pager.branch false
+git config --global --add --bool push.autoSetupRemote true
 
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" "" --unattended
 git clone https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
