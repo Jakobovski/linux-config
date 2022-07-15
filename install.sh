@@ -37,5 +37,7 @@ git clone https://github.com/ssokolow/quicktile.git
 sudo ./quicktile/install.sh
 wget -O ~/.config/quicktile.cfg https://raw.githubusercontent.com/Jakobovski/linux-config/main/quicktile.cfg
 
+git clone https://github.com/iamadamdev/bypass-paywalls-chrome.git # You will need to install it manually in chrome
+
 # Change default shell
 sudo usermod --shell /bin/zsh `whoami`
