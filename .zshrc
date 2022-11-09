@@ -115,6 +115,19 @@ alias gs="git status"
 alias gp="git pull"
 alias gg="git gui"
 
+
+# *************************
+# Rebase workflow
+# From: https://softwaredoug.com/blog/2022/11/09/idiot-proof-git-aliases.html
+    mainbranch = "!git remote show origin | sed -n '/HEAD branch/s/.*: //p'"
+    synced = "!git pull origin $(git mainbranch) --rebase"
+    update = "!git pull origin $(git rev-parse --abbrev-ref HEAD) --rebase"
+    squash = "!git rebase -v -i $(git mainbranch)"
+    publish = push origin HEAD --force-with-lease
+    pub = publish 
+# *************************
+
+
 alias quicktile="quicktile --daemonize"
 alias sublime="(/opt/sublime_text/sublime_text >& /dev/null &)"  
 alias pycharm="(~/pycharm/bin/pycharm.sh >& /dev/null &)"
