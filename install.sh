@@ -27,6 +27,8 @@ sudo gem install colorls
 
 #  Setup shells
 wget -O ~/.zshrc https://raw.githubusercontent.com/Jakobovski/linux-config/main/.zshrc
+wget -O ~/.gitconfig https://raw.githubusercontent.com/Jakobovski/linux-config/main/.gitconfig
+
 wget -O ~/.p10k.zsh https://raw.githubusercontent.com/Jakobovski/linux-config/main/.p10k.zsh
 ~/.fzf/install --all
 
