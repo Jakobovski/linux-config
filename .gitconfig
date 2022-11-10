@@ -1,3 +1,12 @@
+[pager]
+        branch = false
+[push]
+        autoSetupRemote = true
+[filter "lfs"]
+        required = true
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
 [alias]
   # *********************
   # https://softwaredoug.com/blog/2022/11/09/idiot-proof-git-aliases.html
