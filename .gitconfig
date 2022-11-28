@@ -19,7 +19,7 @@
     pub = publish 
     
    # Other
-    reset-to-remote="git reset --hard @{upstream}"
+    reset-to-remote=" reset --hard @{upstream}"
 
     
     
