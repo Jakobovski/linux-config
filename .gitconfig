@@ -18,4 +18,8 @@
     publish = push origin HEAD --force-with-lease
     pub = publish 
     
+   # Other
+    reset-to-remote="git reset --hard @{upstream}"
+
+    
     
