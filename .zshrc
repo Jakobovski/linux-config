@@ -114,6 +114,7 @@ alias gc="git checkout"
 alias gs="git status"
 alias gp="git pull"
 alias gg="git gui"
+alias grc="git rebase --continue"
 alias glazy="git add -u; git commit -m "work"; git push"  # A lazy commit for committing and pushing all changes except untracked files.
 
 
