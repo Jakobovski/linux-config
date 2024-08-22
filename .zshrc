@@ -108,7 +108,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-
 alias sublime="/opt/sublime_text/sublime_text"
 alias gc="git checkout"
 alias gs="git status"
@@ -116,15 +115,16 @@ alias gp="git pull"
 alias gg="git gui"
 alias grc="git rebase --continue"
 alias glazy="git add -u; git commit -m "work"; git push"  # A lazy commit for committing and pushing all changes except untracked files.
+alias gclean="git reset --hard && git clean -fdx"
 
 
 
-alias quicktile="quicktile --daemonize"
-alias sublime="(/opt/sublime_text/sublime_text >& /dev/null &)"  
-alias pycharm="(~/pycharm/bin/pycharm.sh >& /dev/null &)"
-alias webstorm="(~/webstorm/bin/webstorm.sh >& /dev/null &)"
-alias clion="(~/clion/bin/clion.sh >& /dev/null &)"
-alias chrome-cors='google-chrome --disable-web-security --user-data-dir="~/.config/google-chrome-cors/"'
+#alias quicktile="quicktile --daemonize"
+#alias sublime="(/opt/sublime_text/sublime_text >& /dev/null &)"  
+#alias pycharm="(~/pycharm/bin/pycharm.sh >& /dev/null &)"
+#alias webstorm="(~/webstorm/bin/webstorm.sh >& /dev/null &)"
+#alias clion="(~/clion/bin/clion.sh >& /dev/null &)"
+#alias chrome-cors='google-chrome --disable-web-security --user-data-dir="~/.config/google-chrome-cors/"'
 alias rp="realpath"
 alias xclip="xclip -selection c"
 
